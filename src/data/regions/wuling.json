@@ -1,0 +1,78 @@
+{
+  "name": "Wuling",
+  "id": "wuling",
+  "subregions": [
+    {
+      "id": "wuling_city",
+      "name": "Wuling City",
+      "resources": [
+        {
+          "id": "wuling_city_cosmogaric_guhou_marsh",
+          "name": "cosmogaric",
+          "location": "Guhou Marsh"
+        },
+        {
+          "id": "wuling_city_vitrodendra_guhou_marsh",
+          "name": "vitrodendra",
+          "location": "Guhou Marsh"
+        },
+        {
+          "id": "wuling_city_igneosite_guhou_marsh",
+          "name": "igneosite",
+          "location": "Guhou Marsh"
+        },
+        {
+          "id": "wuling_city_blighted_jadeleaf_tianjing_courtyard",
+          "name": "blighted jadeleaf",
+          "location": "Tianjing Courtyard"
+        },
+        {
+          "id": "wuling_city_false_aggela_tianshi_pillar_array",
+          "name": "false aggela",
+          "location": "Tianshi Pillar Array"
+        },
+        {
+          "id": "wuling_city_wulingstone_chenshan_way",
+          "name": "wulingstone",
+          "location": "Chenshan Way"
+        },
+        {
+          "id": "wuling_city_bloodcap_chenshan_way",
+          "name": "Bloodcap",
+          "location": "Chenshan Way"
+        }
+      ]
+    },
+    {
+      "id": "the_stockade",
+      "name": "The Stockade",
+      "resources": [
+        {
+          "id": "the_stockade_umbronyx_zhailing_islet",
+          "name": "umbronyx",
+          "location": "Zhailing Islet"
+        },
+        {
+          "id": "the_stockade_vitrodendra_stragglers_grove",
+          "name": "vitrodendra",
+          "location": "Straggler's Grove"
+        },
+        {
+          "id": "the_stockade_umbronyx_treasure_grotto",
+          "name": "umbronyx",
+          "location": "Treasure Grotto"
+        },
+        {
+          "id": "the_stockade_ruby_bolete_ecological_research_station",
+          "name": "ruby bolete",
+          "location": "Ecological Research Station"
+        },
+        {
+          "id": "the_stockade_ruby_bolete_treadway",
+          "name": "ruby bolete",
+          "location": "Treadway"
+        }
+      ]
+    }
+  ]
+}

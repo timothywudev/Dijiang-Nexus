@@ -1,0 +1,197 @@
+{
+  "name": "Valley IV",
+  "id": "valley_iv",
+  "subregions": [
+    {
+      "id": "the_hub",
+      "name": "The Hub",
+      "resources": [
+        {
+          "id": "the_hub_kalkodendra_bridge_approach",
+          "name": "kalkodendra",
+          "location": "Bridge Approach"
+        },
+        {
+          "id": "the_hub_pink_bolete_old_water_plant_west",
+          "name": "pink bolete",
+          "location": "Old Water Plant (West)"
+        },
+        {
+          "id": "the_hub_pink_bolete_old_water_plant_east",
+          "name": "pink bolete",
+          "location": "Old Water Plant (East)"
+        },
+        {
+          "id": "the_hub_kalkonyx_originium_byproduct_processing_center",
+          "name": "kalkonyx",
+          "location": "Originium Byproduct Processing Center"
+        },
+        {
+          "id": "the_hub_kalkonyx_woodland_fringes",
+          "name": "kalkonyx",
+          "location": "Woodland Fringes"
+        },
+        {
+          "id": "the_hub_kalkodendra_southern_meadows",
+          "name": "kalkodendra",
+          "location": "Southern Meadows"
+        },
+        {
+          "id": "the_hub_pink_bolete_rockhill_passage",
+          "name": "pink bolete",
+          "location": "Rockhill Passage"
+        },
+        {
+          "id": "the_hub_kalkodendra_logistics_platform",
+          "name": "kalkodendra",
+          "location": "Logistics Platform"
+        }
+      ]
+    },
+    {
+      "id": "valley_pass",
+      "name": "Valley Pass",
+      "resources": [
+        {
+          "id": "valley_pass_pink_bolete_arsenal",
+          "name": "pink bolete",
+          "location": "Arsenal"
+        },
+        {
+          "id": "valley_pass_kalkonyx_valley_fort",
+          "name": "kalkonyx",
+          "location": "Valley Fort (Tunnel)"
+        }
+      ]
+    },
+    {
+      "id": "aburrey_quarry",
+      "name": "Aburrey Quarry",
+      "resources": [
+        {
+          "id": "aburrey_quarry_pink_bolete_refuse_stockpile",
+          "name": "pink bolete",
+          "location": "Refuse Stockpile"
+        },
+        {
+          "id": "aburrey_quarry_kalkodendra_refuse_stockpile",
+          "name": "kalkodendra",
+          "location": "Refuse Stockpile"
+        },
+        {
+          "id": "aburrey_quarry_kalkonyx_stockpile_area",
+          "name": "kalkonyx",
+          "location": "Stockpile Area"
+        },
+        {
+          "id": "aburrey_quarry_kalkodendra_quarry_entrance",
+          "name": "kalkodendra",
+          "location": "Quarry Entrance"
+        }
+      ]
+    },
+    {
+      "id": "originium_science_park",
+      "name": "Originium Science Park",
+      "resources": [
+        {
+          "id": "originium_science_park_pink_bolete_the_depression",
+          "name": "pink bolete",
+          "location": "The Depression"
+        },
+        {
+          "id": "originium_science_park_kalkodendra_main_area",
+          "name": "kalkodendra",
+          "location": "Originium Science Park"
+        },
+        {
+          "id": "originium_science_park_kalkonyx_research_center",
+          "name": "kalkonyx",
+          "location": "Research Center"
+        },
+        {
+          "id": "originium_science_park_kalkonyx_kohl_plant",
+          "name": "kalkonyx",
+          "location": "Kohl Plant"
+        },
+        {
+          "id": "originium_science_park_pink_bolete_cliffside",
+          "name": "pink bolete",
+          "location": "Cliff Side"
+        }
+      ]
+    },
+    {
+      "id": "origin_lodespring",
+      "name": "Origin Lodespring",
+      "resources": [
+        {
+          "id": "origin_lodespring_red_bolete_mountain_passage",
+          "name": "red bolete",
+          "location": "Mountain Passage"
+        },
+        {
+          "id": "origin_lodespring_auronyx_mining_camp",
+          "name": "auronyx",
+          "location": "Mining Camp"
+        },
+        {
+          "id": "origin_lodespring_chrysodendra_temp_stockpile_below",
+          "name": "chrysodendra",
+          "location": "Temporary Stockpile (Below)"
+        },
+        {
+          "id": "origin_lodespring_red_bolete_blightcliff_observation",
+          "name": "red bolete",
+          "location": "Blightcliff Observation Post"
+        },
+        {
+          "id": "origin_lodespring_chrysodendra_meteorological_station",
+          "name": "chrysodendra",
+          "location": "Meteorological Station"
+        },
+        {
+          "id": "origin_lodespring_auronyx_logistics_south",
+          "name": "auronyx",
+          "location": "Logistics Area (South)"
+        },
+        {
+          "id": "origin_lodespring_auronyx_logistics_east",
+          "name": "auronyx",
+          "location": "Logistics Area (East)"
+        },
+        {
+          "id": "origin_lodespring_red_bolete_logistics_area",
+          "name": "red bolete",
+          "location": "Logistics Area"
+        }
+      ]
+    },
+    {
+      "id": "power_plateau",
+      "name": "Power Plateau",
+      "resources": [
+        {
+          "id": "power_plateau_chrysodendra_united_parking_lot",
+          "name": "chrysodendra",
+          "location": "United Parking Lot"
+        },
+        {
+          "id": "power_plateau_red_bolete_old_dorms",
+          "name": "red bolete",
+          "location": "Old Dorms"
+        },
+        {
+          "id": "power_plateau_auronyx_plateau_trunkway",
+          "name": "auronyx",
+          "location": "Plateau Trunkway"
+        },
+        {
+          "id": "power_plateau_chrysodendra_evacuation_zone",
+          "name": "chrysodendra",
+          "location": "Evacuation Zone"
+        }
+      ]
+    }
+  ]
+}
