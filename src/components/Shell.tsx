@@ -2,9 +2,12 @@ import { AppShell, Burger, Image, Flex, Title } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import Navbar from './Navbar';
 import Main from './Content';
+import { CountdownTimer } from '../utils/countdown';
 
 export default function Shell() {
   const [opened, { toggle }] = useDisclosure();
+
+  const { hours, minutes, seconds } = CountdownTimer();
 
   return (
     <AppShell
@@ -18,9 +21,13 @@ export default function Shell() {
     >
       <AppShell.Header>
         <Burger opened={opened} onClick={toggle} hiddenFrom='sm' size='sm' />
-        <Flex h={'100%'} justify={'center'} align={'center'}>
-          <Image src='/slug.svg' h={50} w='auto' fit='contain' />
-          <Title order={1}>Dijiang Control Nexus</Title>
+        <Flex h={'100%'} justify={'space-between'} align={'center'}>
+          <Flex align={'center'}>
+            <Image src='/slug.svg' h={50} w='auto' fit='contain' />
+            <Title order={1}>Dijiang Nexus</Title>
+          </Flex>
+          {String(hours).padStart(2, '0')}:{String(minutes).padStart(2, '0')}:
+          {String(seconds).padStart(2, '0')}
         </Flex>
       </AppShell.Header>
 

@@ -1,17 +1,17 @@
 export type Region = {
     name: string;
-    id: number;
+    id: string;
     subregions: Subregion[];
 };
 
 export type Subregion = {
-    id: number,
+    id: string,
     name: string,
     resources: Resource[]
 }
 
 export type Resource = {
-    id: number,
+    id: string,
     name: string,
     location: string
 }

@@ -1,9 +1,12 @@
-import { createTheme, type CSSVariablesResolver } from "@mantine/core";
+import { colorsTuple, createTheme, type CSSVariablesResolver } from "@mantine/core";
 
 export const theme = createTheme({
     fontFamily: 'Inter',
     white: '#ffffff',
     black: '#000000',
+    colors: {
+        'endfield-yellow': colorsTuple('#fffa00'),
+    }
 });
 
 export const resolver: CSSVariablesResolver = (theme) => ({
