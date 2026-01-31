@@ -42,6 +42,11 @@
           "location": "Rockhill Passage"
         },
         {
+          "id": "the_hub_pink_bolete_rockhill_passage",
+          "name": "kalkonyx",
+          "location": "Rockhill Passage"
+        },
+        {
           "id": "the_hub_kalkodendra_logistics_platform",
           "name": "kalkodendra",
           "location": "Logistics Platform"
