@@ -1,0 +1,6 @@
+.main-dev:first-child {
+  width: 30px;
+}
+.main div:last-child {
+  width: 95%;
+}

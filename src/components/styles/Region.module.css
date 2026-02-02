@@ -1,0 +1,23 @@
+.subregionHeader {
+  padding: var(--mantine-spacing-xs) var(--mantine-spacing-md);
+  margin-bottom: var(--mantine-spacing-md);
+  color: var(--mantine-color-endfield-yellow-1);
+  background-color: #000000;
+}
+
+.resourceGrid {
+  background-color: #00000050;
+  padding-left: var(--mantine-spacing-md);
+  padding-right: var(--mantine-spacing-md);
+  border-top: 1px solid var(--mantine-color-endfield-yellow-1);
+}
+
+.resource {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding: var(--mantine-spacing-xs);
+}
+.resourceImage {
+  width: 50px;
+  aspect-ratio: 1/1;
+}
